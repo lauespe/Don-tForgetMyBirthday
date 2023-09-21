@@ -1,5 +1,5 @@
 let name = prompt("Hello! What's your name?");
-alert("Hello " + name + "! Are you ready to play 'Guess their birthdays? >>> You have 3 people and 3 tries.");
+alert("Hello " + name + "! Are you ready to play 'Guess their birthdays?' >> There are 3 famous people and you have 3 tries.");
 
 let lives = 3;
 
