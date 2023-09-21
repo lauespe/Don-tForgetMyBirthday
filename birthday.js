@@ -50,3 +50,12 @@ while (lives > 0) {
         guessing3 = prompt("Give it another try 'Barack Obama's birthday is on 20th ____________'");
     }
 }
+
+function calculateAge () {
+    let currentYear = prompt("What year are we in?")
+    let birthYear = prompt("When was the person born?")
+    let age = Number(currentYear) - Number(birthYear)
+
+    console.log("The person's age is " + age);    
+}
+calculateAge();
